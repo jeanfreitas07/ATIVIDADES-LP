@@ -1,0 +1,10 @@
+num = int(input("digite um numero inteiro:"))
+produto = 1
+#123456789
+while num > 10:
+    dig = num% 10 
+    num = num//10 
+    produto = produto * dig 
+
+produto = produto * num
+print(produto)
