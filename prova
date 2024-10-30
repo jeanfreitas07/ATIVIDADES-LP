@@ -1,3 +1,5 @@
+
+
 num = int(input("digite um numero inteiro:"))
 produto = 1
 #123456789
