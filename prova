@@ -1,5 +1,3 @@
-
-
 num = int(input("digite um numero inteiro:"))
 produto = 1
 #123456789
@@ -10,3 +8,30 @@ while num > 10:
 
 produto = produto * num
 print(produto)
+
+
+n = int(input("digite o valor de n:"))
+# = 5
+
+for i in  range(n):
+    for j  in range (n):
+        print("*", end="")
+    print()
+
+
+
+questão parecida 
+n = int(input("digite o valor de n:"))
+# = 5
+
+for i in  range(n):
+    for j  in range (n):
+        print("*", end="")
+    print()
+
+PRINT
+*****
+*****
+*****
+*****
+*****
