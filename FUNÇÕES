@@ -1,0 +1,81 @@
+notas = [3, 8 , 20 , 60 , 34]
+# alunos  = ["joao", "pedro", "maria"]
+# lista_mistica = [1,"jean",7.8]
+# lista_de_lista = [["jean", "freitas"], 4 , [7.4, 8 , 9 , 10]]
+
+# # print (lista_de_lista)
+# # print(lista_de_lista[2])
+# # print(lista_de_lista[0])
+# # del lista_de_lista [0:2]
+# # print(lista_de_lista)
+---------------------------------------------------------------------------------------
+ATIVIDADE 
+# 1
+# frutas = ["banana", "pera", "mamao", "laranja", "melancia", "maca", "melao" ]
+
+# #2 
+# print (frutas [0] ,frutas [6])
+
+# #3
+# frutas.append("abacaxi")
+# frutas.insert(1,"limão")
+# print(frutas)
+# #4
+# del frutas [0]
+# print(frutas)
+
+# #5
+# if "manga" in frutas:
+#     print("A manga está na lista")
+# else:
+#     print("A manga não está na lista")
+# print(frutas)
+
+# #6
+# frutas = ["banana", "pera", "mamao", "laranja", "melancia", "maca", "melao","maca" ]
+# frutas.count(frutas)
+# for i in frutas:
+#     print(i,frutas.count(i))
+     
+# #7
+# frutas = ["banana", "pera", "mamao", "laranja", "melancia", "maca", "melao","maca" ]
+# frutas.sort()
+# print(frutas)
+
+# #8 
+
+
+
+
+
+
+
+1
+produtos={"arroz":10,
+        "feijao":20,
+        "macarrao":15,
+        "grao de bico":2}
+def novo_produto(produto,quantidade):
+    produtos[produto]=quantidade
+
+def atualizar_produto(produtos,produto,quantidade):
+    # global produtos
+    produtos[produto]=quantidade
+
+def deletar_produto(produto):
+    del(produtos[produto])
+
+if "pera" in produtos.keys():
+    print("esse produto existe!")
+else:
+    print("esse produto Não existe")
+print(produtos)
+
+novo_produto("maca",10)
+atualizar_produto("feijão",3)
+
+print(produtos)
+
+
+  
+
