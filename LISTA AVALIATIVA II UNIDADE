@@ -1,0 +1,173 @@
+#1
+# soma = 0
+# import random 
+# for i in range (10):
+#     num = random.randint(0,10)
+#     soma += num
+#print("a soma é",soma)
+
+#2
+import random 
+pares = 0
+for i in range (20):
+    num = random.randint(0,20)
+    print(num)
+    if num %2==0:
+        pares += 1 
+print("num pares são",pares)
+
+#3
+import random
+somaid=0
+for i in range (5):
+    idade = random.randint (0,5)
+    somaid += idade
+media = somaid /5
+print("a media é",media)
+
+#4
+import random
+fatorial=1 
+num = random.randint (0,10)
+print(num)
+for i in range (num):
+    fatorial = fatorial * (num - i)
+print("o numero fatorial é",fatorial)
+
+#5
+import random                                         
+num=1                                                 
+for i in range(1,11):
+    print(i)
+    if i % 2 > 0:                                     
+        num=num*i                                     
+print("o produtos dos numeros impares é",num)
+ print()
+#6
+num=0                                  
+palavra=input("digite uma palavra:")   
+for i in palavra:                      
+    print(i)                           
+    if i == "a":                       
+        num=num + 1                    
+print(num) 
+
+#7
+import random
+contador=0
+for i in range (6):
+    num=random.randint(1,6)
+    # num=int(input("digite 5 numeros: "))
+    soma=num ** 2
+    contador = contador + soma
+print(contador)
+
+#8
+
+#9
+# 
+# import random
+# cont=0# Solicita o valor de N ao usuário
+N = int(input("Digite um número: "))
+
+# Parte crescente
+for i in range(1, N+1):
+    for j in range(i):
+        print(i, end="")
+    print()
+
+# Parte decrescente
+for i in range(N-1, 0, -1):
+    for j in range(i): print()
+        print(i, end="")
+    print()
+# for i in range (1,31):
+#     num=random.randint(1,30)
+#     if 0 == i  % 3:
+#         cont=cont + i
+# print(cont + 1)				
+
+#10
+#11
+
+
+                                       
+
+#12
+import random
+n= random.randint(-100,100)
+nmaior= nmenor=n
+for i in range (7):
+    n=random.randint(0,100)
+    if n > nmaior:
+        nmaior=n
+    elif n < nmenor:
+        nmenor=n
+dif= nmaior-nmenor 
+print(f"a diferença é {dif}."
+
+#13
+import random
+num=random.randint(0,8)
+menor = num  
+for i in range(8):
+    # num=random.randint(0,8)
+    num=int(input("digite 8 numeros:"))
+    if num < menor:
+        menor = num
+print(f"{menor}numero proximo de 0")
+
+#14
+#15
+#16
+#17
+
+#18
+for i in range (1,10+1):
+    print("tabuada de",i)
+    for j in range (1,10):
+        print(i,"x",j,"=", i*j)
+
+#19
+linhas=int(input("digite quantas linhas deve ser impressa:"))
+for i in range (1,linhas +1 ):
+    for j in range (i):
+        print (i,end="")
+    print("")
+#20
+linhas=int(input("digite quntas linhas deve ser impresa:"))
+for i in range (0,linhas):
+    for j in range (linhas):
+         print ("*",end="")
+    print("")
+
+#21
+linhas=int(input("digite quntas linhas deve ser impresa:"))
+for i in range (linhas):
+    for j in range (i):
+         print ("*",end="")
+    print("")
+
+#22
+linhas=int(input("digite quntas linhas deve ser impresa:"))
+for i in range (linhas):
+    for j in range (linhas - i):
+         print ("*",end="")
+    print("")
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ PROVAS ANTERIORES 
+
+QUESTÃO 4
+Numero = int(input("Digite o numero desejado: "))
+for i in range(1, Numero +1):
+    for j in range(i):
+        print(i, end="")
+    print()
+
+for i in range(Numero-1, 0, -1):
+    for j in range(i):
+        print(i, end="")
+    print()
+
+
+
