@@ -1,0 +1,35 @@
+
+#1
+# def boas_vindas():
+#     print(f"Boas vindas {nome}")
+# nome=input("digite seu nome:")
+# boas_vindas()
+
+#2
+# def celsius_para_fahrenheit(celsius):
+#     print(f"convertendo de celcius para fahrenheit...")
+#     fahrenheit = (celsius * 9/5) + 32
+#     return fahrenheit
+# tempcel = float (input ("digite a temperatura:"))
+# tempfah = celsius_para_fahrenheit(tempcel)
+# print(f"{tempcel}°C é igual a {tempfah}°F")
+
+
+3#
+# def par_ou_impar(numero):
+#     if numero % 2 == 0:
+#         return "par"
+#     else:
+#         return "ímpar"
+    
+# numero = int(input("Digite um número:"))
+# print(f"O número {numero} é {par_ou_impar(numero)}")
+
+
+#4
+def media(lista_numeros):
+media=input
+    print("rertorne ")
+
+
+#5
