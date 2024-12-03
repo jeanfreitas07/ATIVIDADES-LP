@@ -1,0 +1,48 @@
+print("escolha as opções:")
+print("1-soma")
+print("2-subtracao")
+print("3-multiplicacao")
+print("4-divisao")
+print("5-sair")
+
+
+menu()
+opcao = int(input("Digite sua opção:"))
+while opcao != 5:
+    num1 = int(input("Digite o primeiro valor:"))
+    num2 = int(input("Digite o segundo valor:"))
+
+    if  opcao == 1:
+        resultado = num1 + num2
+    elif opcao == 2:
+        resultado = num1 - num2
+    elif opcao == 3:
+        resultado = num1 * num2
+    elif opcao == 4:
+        resultado = num1 / num2
+    print("resultado:",resultado)
+
+time.sleep(3)
+os.system("cls")
+    
+
+#15
+#nota=float(input("digite a sua nota do  enem:"))
+# contador=0
+# contasnotas500=0
+# somanotas=0
+# while nota >=0 and nota <=1000:
+#     contador+=1
+#     somanotas +=nota
+#     if nota > 500:
+#         contasnotas500 +=1
+#     nota=float(input("digite sua nota do enem:"))
+# media=somanotas/contador
+# print("média=",media)
+# print("numero de pessoas com pontuação acima de 500 !!!",contasnotas500)
+
+    
+
+
+    
+
