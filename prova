@@ -19,7 +19,6 @@ for i in  range(n):
     print()
 
 
-
 questão parecida 
 n = int(input("digite o valor de n:"))
 # = 5
