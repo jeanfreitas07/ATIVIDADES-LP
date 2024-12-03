@@ -1,0 +1,88 @@
+
+QUESTÃO 1
+def boas_vindas (nome):
+    print(f"Seja bem vindo {nome}")
+nome=input("digite seu nome:")
+# nome="jean"
+boas_vindas(f"{nome}")
+
+QUESTÃO 2 
+def celsius_para_fahrenheit(celsius):
+    print("CONVERTA DE CELSIUS PARA FAHRENHEIT")
+    calculo=(celsius * 9/5) + 32
+    return calculo
+func=celsius_para_fahrenheit(30)
+print(f"em fahrenheit será {func} graus")
+
+QUESTÃO 3
+def par_ou_impar(numero):
+    print("retorne um numero par:")
+    if numero % 2 == 0 :
+        return "par"
+    else:
+        return "impar"
+
+numero=input("digite um numero")
+print(f"O número {numero} é {resultado}.")
+
+
+
+
+
+atvidade 1
+# estoque=produtos e valores armazenados
+
+estoque={"arroz":10,
+        "feijao":20,
+        "macarrao":15,
+        "grao de bico":2}
+# adiconar produto
+
+def novo_produto(estoque,produto,quantidade):
+    if produto in estoque:
+        print(f"esse produto:,{produto} ,já existe")
+    else:
+        print(f"o produto:,{produto} ,foi adiconado")
+# atualizar estoque
+        
+def atualizar_estoque(estoque,produto,quantidade):
+    if produto in estoque:
+        print(f"o produto ,{produto}, foi atiualizado!")
+    else:
+        print(f"esse produto,{produto},não existe")
+# remover estoque
+        
+def remover_produto(estoque,produto):
+    if produto in estoque:
+        print(f"o produto,{produto},foi removido")
+        del estoque[produto]
+    else:
+        print(f"o produto,{produto},não existe") 
+
+# verificar a quantidadade do produto
+def verificar_quant_produto(estoque,produto):
+    if produto in estoque:
+        quantidade = estoque[produto]
+        print(f"a quantidade do produto {produto} é {quantidade}")
+    else:
+        print(f"O produto {produto}não existe no estoque!")
+
+
+  
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
